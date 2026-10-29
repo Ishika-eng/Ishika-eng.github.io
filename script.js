@@ -51,7 +51,7 @@
       }
     });
   }, { rootMargin: '-45% 0px -50% 0px' });
-  ['work', 'research', 'stack', 'timeline', 'contact'].forEach(function (id) {
+  ['about', 'work', 'research', 'stack', 'timeline', 'contact'].forEach(function (id) {
     var el = document.getElementById(id); if (el) secObserver.observe(el);
   });
 
@@ -258,6 +258,7 @@
   /* ---------- Command palette ---------- */
   var palette = $('#palette'), input = $('#palette-input'), list = $('#palette-list');
   var commands = [
+    { label: 'Go to About', hint: 'section', run: function () { go('#about'); } },
     { label: 'Go to Work', hint: 'section', run: function () { go('#work'); } },
     { label: 'Go to Research', hint: 'section', run: function () { go('#research'); } },
     { label: 'Go to Stack', hint: 'section', run: function () { go('#stack'); } },
