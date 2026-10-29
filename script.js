@@ -266,6 +266,7 @@
     { label: 'Open GitHub', hint: 'link', run: function () { open_('https://github.com/Ishika-eng'); } },
     { label: 'Open LinkedIn', hint: 'link', run: function () { open_('https://www.linkedin.com/in/ishika-mahadar-8795a6337/'); } },
     { label: 'Open LeetCode', hint: 'link', run: function () { open_('https://leetcode.com/u/Ishika_Mahadar/'); } },
+    { label: 'Open resume (PDF)', hint: 'file', run: function () { open_('resume.pdf'); } },
     { label: 'Copy email address', hint: 'action', run: copyEmail },
     { label: 'Toggle light / dark theme', hint: 'action', run: toggleTheme }
   ];
