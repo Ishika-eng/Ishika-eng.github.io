@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ishika Mahadar | AI Agents & Full-Stack Developer</title>
+<meta name="description" content="Computer Engineering undergraduate at VIT Pune building AI agents and full-stack systems, and measuring whether they work. Two IEEE conference papers, Meta OpenEnv Hackathon finalist.">
+<meta property="og:title" content="Ishika Mahadar | AI Agents & Full-Stack Developer">
+<meta property="og:description" content="AI-agent and full-stack projects with measured results, research papers and hackathon work.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0a0a0b">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%230a0a0b'/%3E%3Ctext x='50' y='67' font-size='52' font-family='sans-serif' font-weight='700' text-anchor='middle' fill='%23d6ff3f'%3EIM%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add('js');</script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="progress" id="progress" aria-hidden="true"></div>
+<div class="spotlight" id="spotlight" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top" aria-label="Ishika Mahadar, home"><span class="mark">IM</span><span class="brand-name">Ishika Mahadar</span></a>
+    <nav class="nav-links" aria-label="Sections">
+      <a href="#work" data-sec="work">Work</a>
+      <a href="#research" data-sec="research">Research</a>
+      <a href="#stack" data-sec="stack">Stack</a>
+      <a href="#timeline" data-sec="timeline">Timeline</a>
+      <a href="#contact" data-sec="contact">Contact</a>
+    </nav>
+    <div class="nav-tools">
+      <button class="chip-btn" id="open-palette" aria-label="Open command menu"><kbd id="kbd-hint">Ctrl K</kbd></button>
+      <button class="chip-btn icon" id="theme-toggle" aria-label="Toggle light and dark theme">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <canvas id="net" aria-hidden="true"></canvas>
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="status"><span class="dot"></span>Available for internships &amp; entry-level roles &middot; Pune, India</p>
+      <h1 class="name">
+        <span class="line"><span>Ishika</span></span>
+        <span class="line"><span>Mahadar<i class="period">.</i></span></span>
+      </h1>
+      <p class="tagline">I build <em>AI agents</em> and <em>full-stack systems</em>, and measure whether they actually work.</p>
+      <p class="sub">Computer Engineering @ VIT Pune &middot; 2 IEEE papers &middot; Meta OpenEnv finalist</p>
+      <div class="cta">
+        <a class="btn primary" href="#work">Explore my work <span aria-hidden="true">&darr;</span></a>
+        <a class="btn" href="https://github.com/Ishika-eng" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/ishika-mahadar-8795a6337/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+
+    <aside class="term" aria-label="Simplified trace of the ATMC project">
+      <div class="term-bar">
+        <i></i><i></i><i></i>
+        <span>atmc &mdash; simplified trace</span>
+      </div>
+      <pre class="term-body" id="term-body" aria-live="off"></pre>
+      <p class="term-note">Illustrative trace. Numbers are from the project's saved experiment runs.</p>
+    </aside>
+  </div>
+  <a class="scroll-cue" href="#numbers" aria-label="Scroll down"><span></span></a>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Python</span><span>TypeScript</span><span>FastAPI</span><span>Next.js</span><span>React</span><span>PostgreSQL</span><span>PostGIS</span><span>Docker</span><span>LLM agents</span><span>GRPO + LoRA</span><span>YOLOv8</span><span>Flutter</span><span>FAISS</span><span>Prisma</span><span>Ollama</span>
+    <span>Python</span><span>TypeScript</span><span>FastAPI</span><span>Next.js</span><span>React</span><span>PostgreSQL</span><span>PostGIS</span><span>Docker</span><span>LLM agents</span><span>GRPO + LoRA</span><span>YOLOv8</span><span>Flutter</span><span>FAISS</span><span>Prisma</span><span>Ollama</span>
+  </div>
+</div>
+
+<!-- NUMBERS -->
+<section class="wrap numbers" id="numbers">
+  <div class="stat reveal"><b data-count="1115">0</b><span>GitHub contributions in the last 12 months</span></div>
+  <div class="stat reveal"><b data-count="118">0</b><span>passing tests in a single project</span></div>
+  <div class="stat reveal"><b data-count="300" data-suffix="+">0</b><span>LeetCode problems solved</span></div>
+  <div class="stat reveal"><b data-count="2">0</b><span>IEEE conference papers</span></div>
+</section>
+
+<!-- APPROACH -->
+<section class="wrap approach">
+  <div class="section-head reveal">
+    <p class="kicker">01 &mdash; How I work</p>
+    <h2>Build it. <em>Measure it.</em> Say what failed.</h2>
+  </div>
+  <div class="three">
+    <article class="principle reveal">
+      <span class="pnum">A</span>
+      <h3>Measure, don't assert</h3>
+      <p>ATMC was tested against plain-memory baselines with pre-registered rules and confidence intervals. EV Twin AI validates its predictions against observed telemetry.</p>
+    </article>
+    <article class="principle reveal">
+      <span class="pnum">B</span>
+      <h3>Report the misses</h3>
+      <p>ATMC's README lists the ideas that did not beat the baseline. Boot Upgrade Agent's benchmark shows the held-out app it did not pass.</p>
+    </article>
+    <article class="principle reveal">
+      <span class="pnum">C</span>
+      <h3>Ship something you can try</h3>
+      <p>Live demos for the payment-recovery platform and EV Twin AI, a Hugging Face Space for Hiring Fleet, and 118 automated tests behind one of them.</p>
+    </article>
+  </div>
+</section>
+
+<!-- WORK -->
+<section class="wrap work" id="work">
+  <div class="section-head reveal">
+    <p class="kicker">02 &mdash; Selected work</p>
+    <h2>Projects with <em>numbers</em> behind them.</h2>
+  </div>
+
+  <!-- ATMC -->
+  <article class="case reveal" id="p-atmc">
+    <div class="case-text">
+      <p class="case-meta"><span class="idx">01</span> Research &middot; Oct 2026 &ndash; Present</p>
+      <h3>ATMC: verified-failure memory for coding agents</h3>
+      <p class="case-lead">A coding assistant that learns a team's hidden conventions from its own failures. A sandbox checker says exactly what was expected, that evidence is stored as a note, and a passing retry becomes a worked example. No weight updates; it runs on a laptop with a local model.</p>
+      <ul class="points">
+        <li>Wrote a 110-question hidden-convention benchmark with a held-out set and rule-change streams.</li>
+        <li>A bounded rule memory with execution-based staleness detection recovered <b>+23 to +26 points</b> after conventions changed, storing <b>62&ndash;78% fewer notes</b>.</li>
+        <li>Pre-registered experiments; ideas that did not work are reported in the README.</li>
+      </ul>
+      <p class="tags"><span>Python</span><span>Ollama</span><span>Qwen2.5-Coder</span><span>DeepSeek-Coder</span><span>Gemini</span></p>
+      <p class="links"><a href="https://github.com/Ishika-eng/EDI-SEM-5" target="_blank" rel="noopener">View on GitHub <span>&nearr;</span></a></p>
+    </div>
+    <div class="viz">
+      <p class="viz-title">Gain over no memory &middot; first-attempt pass rate <small>points, 95% CI</small></p>
+      <div class="ci">
+        <div class="ci-row">
+          <span class="ci-label">Qwen2.5-Coder-7B</span>
+          <div class="ci-track">
+            <i class="ci-range" style="left:56.67%;width:34.33%"></i>
+            <i class="ci-dot" style="left:73.67%"></i>
+            <em class="ci-val" style="left:73.67%">+22.1</em>
+          </div>
+        </div>
+        <div class="ci-row">
+          <span class="ci-label">DeepSeek-Coder-6.7B</span>
+          <div class="ci-track">
+            <i class="ci-range" style="left:39.33%;width:30.33%"></i>
+            <i class="ci-dot" style="left:54.67%"></i>
+            <em class="ci-val" style="left:54.67%">+16.4</em>
+          </div>
+        </div>
+        <div class="ci-axis"><span style="left:0%">0</span><span style="left:33.33%">10</span><span style="left:66.67%">20</span><span style="left:100%">30</span></div>
+      </div>
+      <p class="viz-foot">Benchmark: 110 questions, 9 hidden-convention families. Self-written, which is the main limit of the result.</p>
+    </div>
+  </article>
+
+  <!-- Razorpay -->
+  <article class="case reveal" id="p-razorpay">
+    <div class="case-text">
+      <p class="case-meta"><span class="idx">02</span> Full-stack &middot; Sep 2026 &middot; Razorpay AI Buildathon</p>
+      <h3>Universal AI payment recovery platform</h3>
+      <p class="case-lead">Instead of retrying single failed transactions, it tracks the payment <em>obligation</em>, so a customer who already paid through another provider is not chased again.</p>
+      <ul class="points">
+        <li>Handles split payments across Razorpay and Stripe, partial payments, refunds, expired cards and provider outages.</li>
+        <li>A deterministic policy engine sits between the AI agent and customer outreach: compliant escalation, opt-outs, stopping rules, audit trail.</li>
+        <li>Live on Vercel with Postgres in Razorpay test mode.</li>
+      </ul>
+      <p class="tags"><span>Next.js</span><span>TypeScript</span><span>Prisma</span><span>PostgreSQL</span><span>Vitest</span></p>
+      <p class="links">
+        <a href="https://ai-recovery-agent-razorpay-buildath.vercel.app" target="_blank" rel="noopener">Live demo <span>&nearr;</span></a>
+        <a href="https://github.com/Ishika-eng/AI-Recovery-Agent---Razorpay-Buildathon" target="_blank" rel="noopener">GitHub <span>&nearr;</span></a>
+      </p>
+    </div>
+    <div class="viz">
+      <p class="viz-title">One obligation, many attempts <small>how a payment resolves</small></p>
+      <div class="flow">
+        <div class="node"><b>Webhooks</b><span>Razorpay &middot; Stripe</span></div>
+        <div class="wire"></div>
+        <div class="node hot"><b>Payment obligation</b><span>owns the status</span></div>
+        <div class="wire"></div>
+        <div class="node"><b>Policy engine</b><span>opt-outs &middot; limits &middot; stop rules</span></div>
+        <div class="wire"></div>
+        <div class="node"><b>AI action</b><span>link &middot; reminder &middot; audit trail</span></div>
+      </div>
+      <p class="badge-line"><span class="badge">118 tests passing</span><span class="badge ghost">idempotency &middot; webhooks &middot; provider correlation</span></p>
+    </div>
+  </article>
+
+  <!-- Boot upgrade -->
+  <article class="case reveal" id="p-boot">
+    <div class="case-text">
+      <p class="case-meta"><span class="idx">03</span> AI agent &middot; Oct 2026 &middot; Hacktoberfest</p>
+      <h3>Boot Upgrade Agent</h3>
+      <p class="case-lead">Upgrades Spring Boot 2.7 apps to Spring Boot 3 with a local open-weight model, then checks that the upgrade did not silently change who can access what.</p>
+      <ul class="points">
+        <li>A test-integrity guard stops the agent from editing tests or build files; the upgraded app must run the same tests as the original.</li>
+        <li>Replays requests as anonymous, user and admin against the old and new build to flag changed access.</li>
+        <li>Upgraded both sample apps in 3 of 3 runs. It did not pass on a held-out app, and the benchmark says so.</li>
+      </ul>
+      <p class="tags"><span>Python</span><span>Ollama</span><span>Spring Boot</span><span>OpenRewrite</span></p>
+      <p class="links"><a href="https://github.com/Ishika-eng/Hacktoberfest_26" target="_blank" rel="noopener">View on GitHub <span>&nearr;</span></a></p>
+    </div>
+    <div class="viz">
+      <p class="viz-title">Pipeline <small>what runs, in order</small></p>
+      <ol class="steps">
+        <li><b>OpenRewrite</b><span>mechanical Boot 3 migration</span></li>
+        <li><b>Build &amp; test loop</b><span>local model fixes compile and test errors</span></li>
+        <li><b>Integrity guard</b><span>tests and pom files hashed, edits rejected</span></li>
+        <li><b>Security diff</b><span>same requests as anon / user / admin, old vs new</span></li>
+      </ol>
+      <p class="badge-line"><span class="badge">3/3 sample-app runs</span><span class="badge warn">0/1 held-out app, reported</span></p>
+    </div>
+  </article>
+
+  <!-- Hiring Fleet -->
+  <article class="case reveal" id="p-fleet">
+    <div class="case-text">
+      <p class="case-meta"><span class="idx">04</span> Multi-agent RL &middot; Apr 2026 &middot; Meta PyTorch OpenEnv</p>
+      <h3>Hiring Fleet: multi-agent AI oversight</h3>
+      <p class="case-lead">Specialist agents investigate role-restricted resume sections and an Overseer agent decides from their reports alone.</p>
+      <ul class="points">
+        <li>Role-gated action whitelists and siloed observations.</li>
+        <li>Deterministic reward of 7 independent sub-functions with anti-exploit penalties over a 36-resume dataset. No LLM judge.</li>
+        <li>Fine-tuned with GRPO (LoRA) and deployed as a live Hugging Face Space.</li>
+      </ul>
+      <p class="tags"><span>Python</span><span>OpenEnv</span><span>GRPO</span><span>LoRA</span><span>Docker</span></p>
+      <p class="links"><a href="https://github.com/Ishika-eng/OpenEnv-Meta-Hackathon---Adversarial-Resume-Screening-Environment" target="_blank" rel="noopener">View on GitHub <span>&nearr;</span></a></p>
+    </div>
+    <div class="viz">
+      <p class="viz-title">Mean reward <small>before vs after 800 GRPO steps</small></p>
+      <div class="bars">
+        <div class="bar-row"><span>Before</span><div class="bar"><i class="muted" style="--w:73.6%"></i></div><b>0.736</b></div>
+        <div class="bar-row"><span>After</span><div class="bar"><i style="--w:85%"></i></div><b>0.850</b></div>
+      </div>
+      <p class="viz-foot">Scale 0 to 1.</p>
+    </div>
+  </article>
+
+  <!-- TaskClean -->
+  <article class="case reveal" id="p-taskclean">
+    <div class="case-text">
+      <p class="case-meta"><span class="idx">05</span> Data / ML &middot; Oct 2026</p>
+      <h3>TaskClean: task-aware data quality</h3>
+      <p class="case-lead">Measures how much each data-quality problem actually hurts an ML task, and only repairs automatically what it can show is safe.</p>
+      <ul class="points">
+        <li>Injects one error type at a time into UCI Adult and measures F1 loss on an untouched clean test set.</li>
+        <li>Repairs apply automatically only with zero observed harm and precision of at least 0.95; the rest is flagged for review.</li>
+        <li>Also a usable tool: upload a CSV, get a cleaned dataset, a repair log and a readiness report.</li>
+      </ul>
+      <p class="tags"><span>Python</span><span>scikit-learn</span><span>Jupyter</span></p>
+      <p class="links"><a href="https://github.com/Ishika-eng/Task-Aware-Data-Quality-Impact-Analysis-and-Repair-Prioritization-for-AI-Ready-Datasets" target="_blank" rel="noopener">View on GitHub <span>&nearr;</span></a></p>
+    </div>
+    <div class="viz">
+      <p class="viz-title">F1 damage at 20% corruption <small>mean over 5 seeds</small></p>
+      <div class="bars">
+        <div class="bar-row"><span>Label errors</span><div class="bar"><i style="--w:92.7%"></i></div><b>0.065</b></div>
+        <div class="bar-row"><span>Feature corruption</span><div class="bar"><i class="muted" style="--w:20.6%"></i></div><b>0.014</b></div>
+        <div class="bar-row"><span>Outliers</span><div class="bar"><i class="muted" style="--w:13%"></i></div><b>0.009</b></div>
+        <div class="bar-row"><span>Missing values</span><div class="bar"><i class="muted" style="--w:10.1%"></i></div><b>0.007</b></div>
+        <div class="bar-row"><span>Duplicates</span><div class="bar"><i class="muted" style="--w:2.9%"></i></div><b>0.002</b></div>
+      </div>
+      <p class="viz-foot">Duplicates' damage is smaller than its own standard deviation, so it is treated as noise.</p>
+    </div>
+  </article>
+
+  <!-- Smart Garbage -->
+  <article class="case reveal" id="p-garbage">
+    <div class="case-text">
+      <p class="case-meta"><span class="idx">06</span> Computer vision &middot; Dec 2025 &ndash; Jan 2026</p>
+      <h3>Smart garbage detection</h3>
+      <p class="case-lead">Citizens photograph waste; the system detects, classifies and geo-tags it for municipal action. Published as an IEEE conference paper.</p>
+      <ul class="points">
+        <li>YOLOv8 trained on TACO: <b>0.88 precision, 0.85 recall, 0.78 mAP@50</b>.</li>
+        <li>Flutter app, FastAPI inference backend, PostgreSQL + PostGIS; 1.8s average end-to-end response.</li>
+        <li>Leaflet heatmap dashboard with automated municipal notifications.</li>
+      </ul>
+      <p class="tags"><span>YOLOv8</span><span>Flutter</span><span>FastAPI</span><span>PostGIS</span><span>Leaflet</span></p>
+      <p class="links"><a href="https://github.com/Ishika-eng/Smart-Garbage-Detection" target="_blank" rel="noopener">View on GitHub <span>&nearr;</span></a></p>
+    </div>
+    <div class="viz">
+      <p class="viz-title">Geospatial query time <small>GiST spatial index</small></p>
+      <div class="bars">
+        <div class="bar-row"><span>Before</span><div class="bar"><i class="muted" style="--w:100%"></i></div><b>420 ms</b></div>
+        <div class="bar-row"><span>After</span><div class="bar"><i style="--w:3.6%"></i></div><b>15 ms</b></div>
+      </div>
+      <p class="badge-line"><span class="badge big">30&times; faster</span></p>
+    </div>
+  </article>
+
+  <!-- smaller -->
+  <div class="mini-grid">
+    <article class="mini reveal">
+      <p class="case-meta"><span class="idx">07</span> Multi-agent platform &middot; Jul 2026</p>
+      <h3>EV Twin AI</h3>
+      <p>Three cooperating agents plus a chat orchestrator help fleet operators decide which diesel vehicles to convert to EVs, then keep them healthy. Predictions are validated against observed telemetry (MAE/RMSE). It runs on synthetic data, and says so.</p>
+      <p class="tags"><span>FastAPI</span><span>React</span><span>Groq</span><span>Vercel</span><span>Render</span></p>
+      <p class="links">
+        <a href="https://et-hackathon-ev-twin-ai.vercel.app" target="_blank" rel="noopener">Live demo <span>&nearr;</span></a>
+        <a href="https://github.com/Ishika-eng/ET-Hackathon-EV-Twin-AI" target="_blank" rel="noopener">GitHub <span>&nearr;</span></a>
+      </p>
+    </article>
+    <article class="mini reveal">
+      <p class="case-meta"><span class="idx">08</span> Team project &middot; Apr &ndash; May 2026</p>
+      <h3>FraudGuard AI</h3>
+      <p>Blocks duplicate registrations across exam, insurance and e-commerce portals, deciding in under 200ms with a 4-layer pipeline (SHA-256 fingerprinting + FAISS semantic search). I owned the behavioral-biometrics and auto-decision engine.</p>
+      <p class="tags"><span>FastAPI</span><span>FAISS</span><span>MongoDB</span><span>Chrome Extension</span><span>React</span></p>
+      <p class="links"><a href="https://github.com/Ishika-eng/SE---Fraud-Detection" target="_blank" rel="noopener">GitHub <span>&nearr;</span></a></p>
+    </article>
+  </div>
+</section>
+
+<!-- RESEARCH -->
+<section class="wrap research" id="research">
+  <div class="section-head reveal">
+    <p class="kicker">03 &mdash; Research</p>
+    <h2>Two IEEE conference <em>papers</em>.</h2>
+  </div>
+  <div class="papers">
+    <article class="paper reveal">
+      <p class="paper-meta">IEEE ICEI 2026 &middot; Pune &middot; Mar 2026</p>
+      <h3>Smart Assistance System for Alzheimer's Patients Using the Internet of Things</h3>
+      <p>An IoT and AI assistance system combining real-time GPS tracking with geofencing, fall detection, medication reminders and an AI caregiver chatbot, validated on ESP32, NEO-6M GPS and MPU6050 hardware.</p>
+      <div class="rings">
+        <div class="ring" style="--off:4.4"><svg viewBox="0 0 80 80"><circle class="track" cx="40" cy="40" r="34" pathLength="100"/><circle class="val" cx="40" cy="40" r="34" pathLength="100"/></svg><b>95.6%</b><span>geofencing accuracy</span></div>
+        <div class="ring" style="--off:8"><svg viewBox="0 0 80 80"><circle class="track" cx="40" cy="40" r="34" pathLength="100"/><circle class="val" cx="40" cy="40" r="34" pathLength="100"/></svg><b>92%</b><span>fall-detection accuracy</span></div>
+        <div class="ring text"><b>3&ndash;5s</b><span>caregiver alert time</span></div>
+      </div>
+      <p class="links"><a href="https://doi.org/10.1109/ICEI65890.2026.11447952" target="_blank" rel="noopener">DOI 10.1109/ICEI65890.2026.11447952 <span>&nearr;</span></a></p>
+    </article>
+    <article class="paper reveal">
+      <p class="paper-meta">IGNITE 2026 &middot; IEEE &middot; Sep 2026</p>
+      <h3>Smart Garbage Detection and Community Mapping Using YOLOv8</h3>
+      <p>A YOLOv8-based waste management system that detects garbage, maps hotspots and supports municipal action through geospatial analysis and automated notifications.</p>
+      <div class="rings">
+        <div class="ring" style="--off:12"><svg viewBox="0 0 80 80"><circle class="track" cx="40" cy="40" r="34" pathLength="100"/><circle class="val" cx="40" cy="40" r="34" pathLength="100"/></svg><b>0.88</b><span>precision</span></div>
+        <div class="ring" style="--off:15"><svg viewBox="0 0 80 80"><circle class="track" cx="40" cy="40" r="34" pathLength="100"/><circle class="val" cx="40" cy="40" r="34" pathLength="100"/></svg><b>0.85</b><span>recall</span></div>
+        <div class="ring" style="--off:22"><svg viewBox="0 0 80 80"><circle class="track" cx="40" cy="40" r="34" pathLength="100"/><circle class="val" cx="40" cy="40" r="34" pathLength="100"/></svg><b>0.78</b><span>mAP@50</span></div>
+      </div>
+      <p class="links"><a href="#p-garbage">See the project <span>&darr;</span></a></p>
+    </article>
+  </div>
+</section>
+
+<!-- STACK -->
+<section class="wrap stack" id="stack">
+  <div class="section-head reveal">
+    <p class="kicker">04 &mdash; Stack</p>
+    <h2>Every skill, <em>traced to a project</em>.</h2>
+  </div>
+  <p class="stack-hint reveal">Hover or tap a skill to see where I've used it.</p>
+  <div class="skill-groups reveal" id="skills">
+    <div class="group">
+      <h4>Languages</h4>
+      <div class="chips">
+        <button data-used="ATMC, Hiring Fleet, TaskClean, Boot Upgrade Agent, Smart Garbage Detection, FraudGuard AI, EV Twin AI">Python</button>
+        <button data-used="Razorpay payment recovery platform">TypeScript</button>
+        <button data-used="EV Twin AI frontend, ThreatNest dashboard, Odoo Hackathon app">JavaScript</button>
+        <button data-used="Boot Upgrade Agent (Spring Boot target apps), Computer Networks lab">Java</button>
+        <button data-used="Smart Garbage Detection (PostGIS queries), Razorpay platform (Postgres via Prisma)">SQL</button>
+        <button data-used="Smart Garbage Detection (Flutter mobile app)">Dart</button>
+      </div>
+    </div>
+    <div class="group">
+      <h4>Backend &amp; data</h4>
+      <div class="chips">
+        <button data-used="Smart Garbage Detection, FraudGuard AI, EV Twin AI">FastAPI</button>
+        <button data-used="Razorpay payment recovery platform">Next.js</button>
+        <button data-used="ThreatNest, Odoo Hackathon app">Node.js / Express</button>
+        <button data-used="ThreatNest (live device telemetry)">WebSockets</button>
+        <button data-used="Razorpay platform, Smart Garbage Detection (with PostGIS)">PostgreSQL</button>
+        <button data-used="Smart Garbage Detection (GiST index, 420ms to 15ms)">PostGIS</button>
+        <button data-used="FraudGuard AI">MongoDB</button>
+        <button data-used="Razorpay payment recovery platform">Prisma</button>
+        <button data-used="FraudGuard AI (semantic similarity search)">FAISS</button>
+      </div>
+    </div>
+    <div class="group">
+      <h4>AI / ML</h4>
+      <div class="chips">
+        <button data-used="FraudGuard AI (Gemini, Claude Haiku fallback chain), EV Twin AI (Groq), ATMC">LLM agents &amp; APIs</button>
+        <button data-used="Hiring Fleet, EV Twin AI, Razorpay platform (AI recovery agent)">Multi-agent systems</button>
+        <button data-used="Hiring Fleet (0.736 to 0.850 mean reward)">GRPO + LoRA</button>
+        <button data-used="ATMC, Boot Upgrade Agent (local open-weight models)">Ollama</button>
+        <button data-used="Smart Garbage Detection (0.78 mAP@50), YOLO hackathon work">YOLOv8</button>
+        <button data-used="TaskClean (Random Forest experiments on UCI Adult)">scikit-learn</button>
+      </div>
+    </div>
+    <div class="group">
+      <h4>Frontend &amp; tools</h4>
+      <div class="chips">
+        <button data-used="FraudGuard AI, EV Twin AI, AI Resume Curator">React</button>
+        <button data-used="ThreatNest, AI Resume Curator">Tailwind CSS</button>
+        <button data-used="Smart Garbage Detection (mobile app)">Flutter</button>
+        <button data-used="Hiring Fleet (Hugging Face Space)">Docker</button>
+        <button data-used="Razorpay platform (118 tests)">Vitest</button>
+        <button data-used="Razorpay platform, EV Twin AI">Vercel</button>
+        <button data-used="FraudGuard AI (Manifest V3)">Chrome Extensions</button>
+        <button data-used="Every project on this page">Git</button>
+      </div>
+    </div>
+    <div class="group">
+      <h4>Fundamentals</h4>
+      <div class="chips">
+        <button data-used="300+ LeetCode problems">DSA</button>
+        <button data-used="University coursework and labs">OOP</button>
+        <button data-used="University coursework and labs">Operating Systems</button>
+        <button data-used="Computer Networks lab (Java sockets, protocols)">Computer Networks</button>
+      </div>
+    </div>
+  </div>
+  <div class="used" id="used" role="status" aria-live="polite">
+    <span class="used-label">Used in</span>
+    <span class="used-text" id="used-text">Pick a skill above.</span>
+  </div>
+</section>
+
+<!-- TIMELINE -->
+<section class="wrap timeline" id="timeline">
+  <div class="section-head reveal">
+    <p class="kicker">05 &mdash; Timeline</p>
+    <h2>The last year, <em>in order</em>.</h2>
+  </div>
+  <ol class="tl">
+    <li class="reveal"><time>Dec 2025 &ndash; Jan 2026</time><div><b>Smart Garbage Detection</b><span>YOLOv8 + PostGIS system, later published at IGNITE 2026.</span></div></li>
+    <li class="reveal"><time>Mar 2026</time><div><b>Published at IEEE ICEI 2026</b><span>IoT Alzheimer's assistance system, 95.6% geofencing and 92% fall-detection accuracy.</span></div></li>
+    <li class="reveal"><time>Apr 2026</time><div><b>Meta PyTorch OpenEnv Hackathon finalist</b><span>Top 800 of 31,000 teams, 36-hour on-site finale with Scaler School of Technology.</span></div></li>
+    <li class="reveal"><time>Sep 2026</time><div><b>Razorpay AI Buildathon</b><span>Payment recovery platform, live demo. Also Zonal Round of Women Who Master Hackathon (top 2,800 of about 1 lakh).</span></div></li>
+    <li class="reveal"><time>Sep 30, 2026</time><div><b>Published at IGNITE 2026</b><span>Smart Garbage Detection and Community Mapping Using YOLOv8.</span></div></li>
+    <li class="reveal"><time>Oct 2026</time><div><b>ATMC, TaskClean, Boot Upgrade Agent</b><span>Three research and agent projects; 481 commits in the month. Naukri Young Turks 94.13 percentile. Meta Back-End Developer certificate.</span></div></li>
+  </ol>
+</section>
+
+<!-- CONTACT -->
+<section class="wrap contact" id="contact">
+  <p class="kicker reveal">06 &mdash; Contact</p>
+  <h2 class="big reveal">Let's build something <em>that works</em>.</h2>
+  <p class="contact-sub reveal">I'm looking for internship and entry-level roles in software and AI engineering. Email is the fastest way to reach me.</p>
+  <div class="cta reveal">
+    <button class="btn primary" id="copy-email" data-email="ishikamahadar@gmail.com">ishikamahadar@gmail.com <span id="copy-state">Copy</span></button>
+    <a class="btn" href="https://www.linkedin.com/in/ishika-mahadar-8795a6337/" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn" href="https://github.com/Ishika-eng" target="_blank" rel="noopener">GitHub</a>
+    <a class="btn" href="https://leetcode.com/u/Ishika_Mahadar/" target="_blank" rel="noopener">LeetCode</a>
+  </div>
+</section>
+
+</main>
+
+<footer class="wrap foot">
+  <p><span>&copy; <span id="year">2026</span> Ishika Mahadar</span><span>Press <kbd id="kbd-foot">Ctrl K</kbd> to navigate</span></p>
+</footer>
+
+<!-- Command palette -->
+<div class="palette" id="palette" hidden>
+  <div class="palette-backdrop" data-close></div>
+  <div class="palette-box" role="dialog" aria-modal="true" aria-label="Command menu">
+    <input id="palette-input" type="text" placeholder="Jump to a section, open a link..." autocomplete="off" spellcheck="false">
+    <ul id="palette-list" role="listbox"></ul>
+    <p class="palette-foot"><kbd>&uarr;</kbd><kbd>&darr;</kbd> move <kbd>Enter</kbd> select <kbd>Esc</kbd> close</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
